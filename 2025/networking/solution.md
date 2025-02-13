@@ -1,52 +1,52 @@
 ## **How does internet works?**
 -It is a web of cables(optical fibres) where data is transfer from one location to anothor.
--a hierarchy of networks is divided into tiers:
+a hierarchy of networks is divided into tiers:
 
 
 ## **Tier 1: The Backbone of the Internet**
 
-The top level of the internet. These are the biggest networks in the world.
+- The top level of the internet. These are the biggest networks in the world.
 
-Huge companies that own and operate massive infrastructure, like undersea cables and data centers (e.g., Level 3, NTT Communications, and Telia).
+- Huge companies that own and operate massive infrastructure, like undersea cables and data centers (e.g., Level 3, NTT Communications, and Telia).
 
-Tier 1 networks connect directly to one another without paying anyone else. They exchange traffic freely (this is called "peering"). They are the reason global communication is possible.
+- Tier 1 networks connect directly to one another without paying anyone else. They exchange traffic freely (this is called "peering"). They are the reason global communication is possible.
 
 
 ## **Tier 2: The Middlemen**
 
-Regional or national networks that connect to Tier 1 networks.
+- Regional or national networks that connect to Tier 1 networks.
 
-They pay Tier 1 providers for access to the global internet.
+- They pay Tier 1 providers for access to the global internet.
 
-Tier 2 providers act as bridges, connecting local ISPs or businesses to the global internet. They might also peer with other Tier 2 networks to reduce costs.
+- Tier 2 providers act as bridges, connecting local ISPs or businesses to the global internet. They might also peer with other Tier 2 networks to reduce costs.
 
 
 ## **Tier 3: Local Providers**
 
-Smaller networks that provide internet to homes and businesses.
+- Smaller networks that provide internet to homes and businesses.
 
-Local ISPs, like your neighborhood internet provider or small cable companies.
+- Local ISPs, like your neighborhood internet provider or small cable companies.
 
-Tier 3 providers pay Tier 2 (or sometimes directly Tier 1) providers to carry internet traffic. They bring the internet directly to your door.
+- Tier 3 providers pay Tier 2 (or sometimes directly Tier 1) providers to carry internet traffic. They bring the internet directly to your door.
 
 
 ## **Example of the Internet in Action:**
-You type a website address on your computer.
+- You type a website address on your computer.
 
-Your Tier 3 provider sends the request to a Tier 2 provider.
+- Your Tier 3 provider sends the request to a Tier 2 provider.
 
-The Tier 2 provider forwards it to a Tier 1 network to reach the website's server, possibly across continents.
+- The Tier 2 provider forwards it to a Tier 1 network to reach the website's server, possibly across continents.
 
-The server sends back the data through the same chain, and the website appears on your screen!
+- The server sends back the data through the same chain, and the website appears on your screen!
 
 
 In short:
 
-Tier 1: The global highways.
+*Tier 1:* The global highways.
 
-Tier 2: The regional roads.
+*Tier 2:* The regional roads.
 
-Tier 3: The local streets.
+*Tier 3:* The local streets.
 
 
 
@@ -54,11 +54,11 @@ Tier 3: The local streets.
 
 
 ## **OSI Model**
-Helps standardize network communication.
+- Helps standardize network communication.
 
-Makes troubleshooting easier.
+- Makes troubleshooting easier.
 
-Provides a common language for networking professionals.
+- Provides a common language for networking professionals.
 
 
 ## **Seven layers of OSI Model :**
@@ -87,49 +87,51 @@ Example: You type a message, hit send, and the app displays "Message Sent" when 
 
 
 ## **TCP/IP Model**
-TCP/IP is the backbone of the internet, allowing different devices to communicate seamlessly!
+- TCP/IP is the backbone of the internet, allowing different devices to communicate seamlessly!
 
 **Application Layer:**
 
-Combines OSI's top three layers (Application, Presentation, and Session
+- Combines OSI's top three layers (Application, Presentation, and Session
 
-Provides services like web browsing, email, and file transfer (e.g., HTTP, FTP, SMTP).
+- Provides services like web browsing, email, and file transfer (e.g., HTTP, FTP, SMTP).
 
 **Transport Layer:**
 
-Handles end-to-end communication and ensures reliable data delivery using protocols like TCP (reliable) or UDP (faster but less reliable).
-Internet Layer:
+- Handles end-to-end communication and ensures reliable data delivery using protocols like TCP (reliable) or UDP (faster but less reliable).
 
-Responsible for routing data across networks using IP addresses (e.g., IPv4, IPv6)
 
-Determining the best path for packets.
+**Internet Layer:**
+
+- Responsible for routing data across networks using IP addresses (e.g., IPv4, IPv6)
+
+- Determining the best path for packets.
+
 
 **Network Access Layer (or Link Layer):**
 
-Deals with physical hardware, such as network interfaces, and manages how data is sent over the physical network (e.g., Ethernet, Wi-Fi).
-
+- Deals with physical hardware, such as network interfaces, and manages how data is sent over the physical network (e.g., Ethernet, Wi-Fi).
 
 Example:
 
-You type website’s url into your browser.
+- You type website’s url into your browser.
 
-The browser establishes a connection with the web server.
+- The browser establishes a connection with the web server.
 
-Data packets are routed through the internet from your computer to the web server's IP address.
+- Data packets are routed through the internet from your computer to the web server's IP address.
 
-The packets are sent across the physical network (like Wi-Fi or Ethernet) to the next device (e.g., router).
+- The packets are sent across the physical network (like Wi-Fi or Ethernet) to the next device (e.g., router).
 
 
 
 
 ## **Protocols**
-A protocol is a set of rules that defines how data is transmitted and received over a network.
+- A protocol is a set of rules that defines how data is transmitted and received over a network.
 
 
 
 **1. Application Layer Protocols**
 
-Enable communication for specific tasks or applications:
+- Enable communication for specific tasks or applications:
 
 **HTTP/HTTPS:** Web browsing (secure with HTTPS).
 
@@ -147,37 +149,37 @@ Enable communication for specific tasks or applications:
 
 **2. Transport Layer Protocols**
 
-Ensure proper data delivery:
+- Ensure proper data delivery:
 
-TCP (Transmission Control Protocol): Reliable, connection-oriented communication (e.g., web browsing, email).
+- **TCP (Transmission Control Protocol):** Reliable, connection-oriented communication (e.g., web browsing, email).
 
-UDP (User Datagram Protocol): Fast, connectionless communication (e.g., video streaming, gaming).
+- **UDP (User Datagram Protocol):** Fast, connectionless communication (e.g., video streaming, gaming).
 
 
 
 
 **3. Internet Layer Protocols**
 
-Handle routing and addressing:
+- Handle routing and addressing:
 
-IP (Internet Protocol): Moves packets across networks (IPv4, IPv6).
+- **IP (Internet Protocol):** Moves packets across networks (IPv4, IPv6).
 
-ICMP: Sends error messages (e.g., when a server is unreachable).
+- **ICMP:** Sends error messages (e.g., when a server is unreachable).
 
-ARP: Resolves IP addresses to MAC addresses.
+- **ARP:** Resolves IP addresses to MAC addresses.
 
 
 
 
 **4. Network Access Layer Protocols**
 
-Manage data transmission over physical media:
+- Manage data transmission over physical media:
 
-Ethernet: Local area network communication.
+- **Ethernet:** Local area network communication.
 
-Wi-Fi (IEEE 802.11): Wireless communication.
+- **Wi-Fi (IEEE 802.11):** Wireless communication.
 
-PPP (Point-to-Point Protocol): Direct connections between devices.
+- **PPP (Point-to-Point Protocol):** Direct connections between devices.
 
 
 
@@ -186,62 +188,62 @@ PPP (Point-to-Point Protocol): Direct connections between devices.
 
 **HTTP/HTTPS**
 
-Port: 80 (HTTP), 443 (HTTPS)
+- Port: 80 (HTTP), 443 (HTTPS)
 
-Use: Accessing web services, APIs, and websites.
+- Use: Accessing web services, APIs, and websites.
 
 **SSH (Secure Shell)**
 
-Port: 22
+- Port: 22
 
-Use: Secure remote access to servers for configuration, troubleshooting, and deployment.
+- Use: Secure remote access to servers for configuration, troubleshooting, and deployment.
 
 **DNS (Domain Name System)**
 
-Port: 53
+- Port: 53
 
-Use: Resolving domain names to IP addresses, vital for accessing services by name.
+- Use: Resolving domain names to IP addresses, vital for accessing services by name.
 
 **SMTP (Simple Mail Transfer Protocol)**
 
-Port: 25, 587 (secure mail submission), 465 (SMTPS)
+- Port: 25, 587 (secure mail submission), 465 (SMTPS)
 
-Use: Sending emails, often used for notifications in CI/CD pipelines.
+- Use: Sending emails, often used for notifications in CI/CD pipelines.
 
 **POP3/IMAP**
 
-Port: 110 (POP3), 143 (IMAP), 993 (IMAPS), 995 (POP3S)
+- Port: 110 (POP3), 143 (IMAP), 993 (IMAPS), 995 (POP3S)
 
-Use: Receiving email messages (e.g., for monitoring alerts).
+- Use: Receiving email messages (e.g., for monitoring alerts).
 
 **FTP/SFTP**
 
-Port: 21 (FTP), 22 (SFTP)
+- Port: 21 (FTP), 22 (SFTP)
 
-Use: Transferring files between systems.
+- Use: Transferring files between systems.
 
 **MySQL**
 
-Port: 3306
+- Port: 3306
 
-Use: Access to MySQL databases.
+- Use: Access to MySQL databases.
 
 
 
 
 ## **MAC Addresses**
 
-A MAC (Media Access Control) Address is a unique identifier assigned to a device's network interface card (NIC).
+- A MAC (Media Access Control) Address is a unique identifier assigned to a device's network interface card (NIC).
 
-It’s like a permanent "serial number" for hardware on a network.
+- It’s like a permanent "serial number" for hardware on a network.
 
-It identifies a device on a local network (like Ethernet or Wi-Fi).
+- It identifies a device on a local network (like Ethernet or Wi-Fi).
 
-Used for communication between devices on the same network.
+- Used for communication between devices on the same network.
 
-A MAC address is a 48-bit (6-byte) number, typically written in hexadecimal format.
+- A MAC address is a 48-bit (6-byte) number, typically written in hexadecimal format.
 
-Example: 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E.
+  Example: 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E.
 
 
 
@@ -253,14 +255,14 @@ Example: 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E.
 
 **Unicast MAC Address:**
 
-Unique to one device. Used for one-to-one communication.
+- Unique to one device. Used for one-to-one communication.
 
 Example: Sending data to a specific laptop.
 
 
 **Multicast MAC Address:**
 
-Shared by a group of devices. Used for one-to-many communication.
+- Shared by a group of devices. Used for one-to-many communication.
 
 Example: Streaming video to multiple users on a network.
 
@@ -268,20 +270,13 @@ Example: Streaming video to multiple users on a network.
 
 **Broadcast MAC Address:**
 
-FF:FF:FF:FF:FF:FF is used to communicate with all devices on a network.
-Routers and Switches
-Router: connects networks (like your home to the internet).
-Switch: connects devices within the same network (like computers and printers).
+- FF:FF:FF:FF:FF:FF is used to communicate with all devices on a network.
 
+**Routers and Switches**
+**Router:** connects networks (like your home to the internet).
+**Switch:** connects devices within the same network (like computers and printers).
 
-***Key Difference Between Router and Switch***
-Feature	Router	Switch
-Purpose	Connects different networks (e.g., LAN to internet).	Connects devices within the same network (LAN).
-Addressing	Uses IP addresses (Layer 3).	Uses MAC addresses (Layer 2).
-Example Use	Your Wi-Fi router connects your devices to the internet.	A switch connects devices like laptops and printers within your office.
-Difference between Switch and Router - javatpoint
-
-For Example,
+- For Example,
 
 In a Home Network:
 
