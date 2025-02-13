@@ -21,7 +21,7 @@ They pay Tier 1 providers for access to the global internet.
 Tier 2 providers act as bridges, connecting local ISPs or businesses to the global internet. They might also peer with other Tier 2 networks to reduce costs.
 
 
-## ***Tier 3: Local Providers***
+## **Tier 3: Local Providers**
 
 Smaller networks that provide internet to homes and businesses.
 
