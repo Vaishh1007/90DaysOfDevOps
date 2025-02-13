@@ -63,39 +63,39 @@ Provides a common language for networking professionals.
 
 ## **Seven layers of OSI Model :**
 
-Physical Layer: Handles the physical transmission of data (cables, signals).
-
+**Physical Layer:** Handles the physical transmission of data (cables, signals).
 Example: Ethernet, Wi-Fi, mobile networks.
-Data Link Layer: Manages data transfer between devices on the same network (MAC addresses).
 
+**Data Link Layer:** Manages data transfer between devices on the same network (MAC addresses).
 Example: Your phone's network card sends frames to your home Wi-Fi router.
-Network Layer: Determines the best path for data (IP addresses, routing).
 
+**Network Layer:** Determines the best path for data (IP addresses, routing).
 Example: The data is routed through the internet using protocols like IP.
-Transport Layer: Ensures reliable data delivery (TCP/UDP, error checking
 
+**Transport Layer:** Ensures reliable data delivery (TCP/UDP, error checking
 Example: TCP ensures each chunk of your message reaches the recipient's device without errors.
-Session Layer: Manages and controls communication sessions between devices.
 
+**Session Layer:** Manages and controls communication sessions between devices.
 Example: Keeps the connection active while sending/receiving the message.
-Presentation Layer: Formats, encrypts, or compresses data for the application layer.
 
+**Presentation Layer:** Formats, encrypts, or compresses data for the application layer.
 Example: WhatsApp encrypts the text, images, or videos being sent.
-Application Layer: Enables user interaction with the network (browsers, email apps).
 
+**Application Layer:** Enables user interaction with the network (browsers, email apps).
 Example: You type a message, hit send, and the app displays "Message Sent" when the delivery is complete.
-Overview of OSI model & HTTP protocol | by Arshad Suraj | Medium
+
 
 
 ## **TCP/IP Model**
 TCP/IP is the backbone of the internet, allowing different devices to communicate seamlessly!
-Application Layer:
+
+**Application Layer:**
 
 Combines OSI's top three layers (Application, Presentation, and Session
 
 Provides services like web browsing, email, and file transfer (e.g., HTTP, FTP, SMTP).
 
-Transport Layer:
+**Transport Layer:**
 
 Handles end-to-end communication and ensures reliable data delivery using protocols like TCP (reliable) or UDP (faster but less reliable).
 Internet Layer:
@@ -104,9 +104,10 @@ Responsible for routing data across networks using IP addresses (e.g., IPv4, IPv
 
 Determining the best path for packets.
 
-Network Access Layer (or Link Layer): -
+**Network Access Layer (or Link Layer):**
 
 Deals with physical hardware, such as network interfaces, and manages how data is sent over the physical network (e.g., Ethernet, Wi-Fi).
+
 
 Example:
 
@@ -118,7 +119,6 @@ Data packets are routed through the internet from your computer to the web serve
 
 The packets are sent across the physical network (like Wi-Fi or Ethernet) to the next device (e.g., router).
 
-TCP/IP Model Explained: A Guide to Computer Networking
 
 
 
@@ -127,25 +127,25 @@ A protocol is a set of rules that defines how data is transmitted and received o
 
 
 
-1. Application Layer Protocols
+**1. Application Layer Protocols**
 
 Enable communication for specific tasks or applications:
 
-HTTP/HTTPS: Web browsing (secure with HTTPS).
+**HTTP/HTTPS:** Web browsing (secure with HTTPS).
 
-FTP: File transfer between computers.
+**FTP:** File transfer between computers.
 
-SMTP: Sending emails.
+**SMTP:** Sending emails.
 
-POP3/IMAP: Receiving emails.
+**POP3/IMAP:** Receiving emails.
 
-DNS: Resolving domain names to IP addresses.
+**DNS:** Resolving domain names to IP addresses.
 
-SSH: Secure remote login to devices.
+**SSH:** Secure remote login to devices.
 
 
 
-2. Transport Layer Protocols
+**2. Transport Layer Protocols**
 
 Ensure proper data delivery:
 
@@ -156,7 +156,7 @@ UDP (User Datagram Protocol): Fast, connectionless communication (e.g., video st
 
 
 
-3. Internet Layer Protocols
+**3. Internet Layer Protocols**
 
 Handle routing and addressing:
 
@@ -169,7 +169,7 @@ ARP: Resolves IP addresses to MAC addresses.
 
 
 
-4. Network Access Layer Protocols
+**4. Network Access Layer Protocols**
 
 Manage data transmission over physical media:
 
@@ -184,43 +184,43 @@ PPP (Point-to-Point Protocol): Direct connections between devices.
 
 ## **Important Protocols and Ports required for DevOps**
 
-HTTP/HTTPS
+**HTTP/HTTPS**
 
 Port: 80 (HTTP), 443 (HTTPS)
 
 Use: Accessing web services, APIs, and websites.
 
-SSH (Secure Shell)
+**SSH (Secure Shell)**
 
 Port: 22
 
 Use: Secure remote access to servers for configuration, troubleshooting, and deployment.
 
-DNS (Domain Name System)
+**DNS (Domain Name System)**
 
 Port: 53
 
 Use: Resolving domain names to IP addresses, vital for accessing services by name.
 
-SMTP (Simple Mail Transfer Protocol)
+**SMTP (Simple Mail Transfer Protocol)**
 
 Port: 25, 587 (secure mail submission), 465 (SMTPS)
 
 Use: Sending emails, often used for notifications in CI/CD pipelines.
 
-POP3/IMAP
+**POP3/IMAP**
 
 Port: 110 (POP3), 143 (IMAP), 993 (IMAPS), 995 (POP3S)
 
 Use: Receiving email messages (e.g., for monitoring alerts).
 
-FTP/SFTP
+**FTP/SFTP**
 
 Port: 21 (FTP), 22 (SFTP)
 
 Use: Transferring files between systems.
 
-MySQL
+**MySQL**
 
 Port: 3306
 
@@ -248,17 +248,17 @@ Example: 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E.
 ## **What is MAC Address and How to find it? -**
 
 
-Types of MAC Addresses
+**Types of MAC Addresses**
 
 
-Unicast MAC Address:
+**Unicast MAC Address:**
 
 Unique to one device. Used for one-to-one communication.
 
 Example: Sending data to a specific laptop.
 
 
-Multicast MAC Address:
+**Multicast MAC Address:**
 
 Shared by a group of devices. Used for one-to-many communication.
 
@@ -266,7 +266,7 @@ Example: Streaming video to multiple users on a network.
 
 
 
-Broadcast MAC Address:
+**Broadcast MAC Address:**
 
 FF:FF:FF:FF:FF:FF is used to communicate with all devices on a network.
 Routers and Switches
@@ -313,19 +313,19 @@ Step 7: Associate Security Group with an EC2 Instance
 
 ## **Essential networking commands for devops**
 
-ping – Checks connectivity to a host.
+**ping** – Checks connectivity to a host.
 
-traceroute (Linux) / tracert (Windows) – Shows the path packets take to a destination.
+**traceroute (Linux) / tracert (Windows)** – Shows the path packets take to a destination.
 
-nslookup – Queries DNS records.
+**nslookup** – Queries DNS records.
 
-dig – Retrieves DNS records in detail (Linux/macOS).
+**dig** – Retrieves DNS records in detail (Linux/macOS).
 
-host – Resolves domain names to IP addresses.
+**host** – Resolves domain names to IP addresses.
 
-ifconfig (deprecated) / ip a (Linux) / ipconfig (Windows) – Displays network interface information.
+**ifconfig (deprecated) / ip a (Linux) / ipconfig (Windows)** – Displays network interface information.
 
-ip route – Shows routing table
+**ip route** – Shows routing table
 
 
 
