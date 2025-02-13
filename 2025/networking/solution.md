@@ -1,4 +1,4 @@
-## **How does internet works?**
+### **How does internet works?**
 -It is a web of cables(optical fibres) where data is transfer from one location to anothor.
 a hierarchy of networks is divided into tiers:
 
@@ -63,22 +63,22 @@ In short:
 
 ## **Seven layers of OSI Model :**
 
-**Physical Layer:** Handles the physical transmission of data (cables, signals).
+- **Physical Layer:** Handles the physical transmission of data (cables, signals).
 Example: Ethernet, Wi-Fi, mobile networks.
 
-**Data Link Layer:** Manages data transfer between devices on the same network (MAC addresses).
+- **Data Link Layer:** Manages data transfer between devices on the same network (MAC addresses).
 Example: Your phone's network card sends frames to your home Wi-Fi router.
 
-**Network Layer:** Determines the best path for data (IP addresses, routing).
+- **Network Layer:** Determines the best path for data (IP addresses, routing).
 Example: The data is routed through the internet using protocols like IP.
 
-**Transport Layer:** Ensures reliable data delivery (TCP/UDP, error checking
+- **Transport Layer:** Ensures reliable data delivery (TCP/UDP, error checking
 Example: TCP ensures each chunk of your message reaches the recipient's device without errors.
 
-**Session Layer:** Manages and controls communication sessions between devices.
+- **Session Layer:** Manages and controls communication sessions between devices.
 Example: Keeps the connection active while sending/receiving the message.
 
-**Presentation Layer:** Formats, encrypts, or compresses data for the application layer.
+- **Presentation Layer:** Formats, encrypts, or compresses data for the application layer.
 Example: WhatsApp encrypts the text, images, or videos being sent.
 
 **Application Layer:** Enables user interaction with the network (browsers, email apps).
