@@ -1,4 +1,4 @@
-### **How does internet works?**
+# **How does internet works?**
 -It is a web of cables(optical fibres) where data is transfer from one location to anothor.
 a hierarchy of networks is divided into tiers:
 
