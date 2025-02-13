@@ -1,9 +1,9 @@
-## ***How does internet works?***
+## **How does internet works?**
 -It is a web of cables(optical fibres) where data is transfer from one location to anothor.
 -a hierarchy of networks is divided into tiers:
 
 
-## **Tier 1: The Backbone of the Internet***
+## **Tier 1: The Backbone of the Internet**
 
 The top level of the internet. These are the biggest networks in the world.
 
@@ -12,7 +12,7 @@ Huge companies that own and operate massive infrastructure, like undersea cables
 Tier 1 networks connect directly to one another without paying anyone else. They exchange traffic freely (this is called "peering"). They are the reason global communication is possible.
 
 
-## ***Tier 2: The Middlemen***
+## **Tier 2: The Middlemen**
 
 Regional or national networks that connect to Tier 1 networks.
 
@@ -30,7 +30,7 @@ Local ISPs, like your neighborhood internet provider or small cable companies.
 Tier 3 providers pay Tier 2 (or sometimes directly Tier 1) providers to carry internet traffic. They bring the internet directly to your door.
 
 
-## ***Example of the Internet in Action:***
+## **Example of the Internet in Action:**
 You type a website address on your computer.
 
 Your Tier 3 provider sends the request to a Tier 2 provider.
@@ -50,10 +50,10 @@ Tier 3: The local streets.
 
 
 
-## ***What Is Network Infrastructure and Why Is It Important?***
+## **What Is Network Infrastructure and Why Is It Important?**
 
 
-## ***OSI Model***
+## **OSI Model**
 Helps standardize network communication.
 
 Makes troubleshooting easier.
@@ -61,7 +61,7 @@ Makes troubleshooting easier.
 Provides a common language for networking professionals.
 
 
-## ***Seven layers of OSI Model :***
+## **Seven layers of OSI Model :**
 
 Physical Layer: Handles the physical transmission of data (cables, signals).
 
@@ -122,7 +122,7 @@ TCP/IP Model Explained: A Guide to Computer Networking
 
 
 
-## ***Protocols***
+## **Protocols**
 A protocol is a set of rules that defines how data is transmitted and received over a network.
 
 
@@ -182,7 +182,7 @@ PPP (Point-to-Point Protocol): Direct connections between devices.
 
 
 
-## ***Important Protocols and Ports required for DevOps***
+## **Important Protocols and Ports required for DevOps**
 
 HTTP/HTTPS
 
@@ -229,7 +229,7 @@ Use: Access to MySQL databases.
 
 
 
-## ***MAC Addresses***
+## **MAC Addresses**
 
 A MAC (Media Access Control) Address is a unique identifier assigned to a device's network interface card (NIC).
 
@@ -245,7 +245,7 @@ Example: 00:1A:2B:3C:4D:5E or 00-1A-2B-3C-4D-5E.
 
 
 
-## ***What is MAC Address and How to find it? -***
+## **What is MAC Address and How to find it? -**
 
 
 Types of MAC Addresses
@@ -292,7 +292,7 @@ Switch: Connects multiple devices like TVs, laptops, and printers so they can ta
 
 
 
-## ***How to Create and Configure Security Groups in AWS***
+## **How to Create and Configure Security Groups in AWS**
 Step 1: Log in to AWS Management Console
 
 Step 2: Navigate to Security Groups
@@ -311,7 +311,7 @@ Step 7: Associate Security Group with an EC2 Instance
 
 
 
-## ***Essential networking commands for devops***
+## **Essential networking commands for devops**
 
 ping – Checks connectivity to a host.
 
