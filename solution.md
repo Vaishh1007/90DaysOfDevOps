@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Week 4: Git and GitHub Challenge - Solution
 
