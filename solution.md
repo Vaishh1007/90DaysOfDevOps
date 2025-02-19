@@ -112,9 +112,6 @@ git commit -m "Feature update: Enhance info.txt with additional details"
 git push origin feature-update
 ```
 
-<<<<<<< HEAD
-After pushing, create a **Pull Request (PR)** on GitHub to merge `feature-update` into `main`.
-=======
 
 Task 6: Explain Branching Strategies
 
