@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Week 4: Git and GitHub Challenge - Solution
 
@@ -5,10 +6,17 @@
 
 ### Commands Used:
 ```sh
+=======
+Week 4: Git and GitHub Challenge - Solution
+
+Task 1: Fork and Clone the Repository
+Commands Used:
+>>>>>>> b2f6ca2 (Git Github Basics Solution)
 # Clone the forked repository
 git clone https://github.com/<your-username>/90DaysOfDevOps.git
 
 # Navigate into the cloned repository
+<<<<<<< HEAD
 cd 90DaysOfDevOps
 ```
 
@@ -16,6 +24,13 @@ cd 90DaysOfDevOps
 
 ### Commands Used:
 ```sh
+=======
+cd 90DaysOfDevOps/2025/git/01_Git_and_Github_Basics
+
+
+Task 2: Initialize a Local Repository and Create a File
+Commands Used:
+>>>>>>> b2f6ca2 (Git Github Basics Solution)
 # Create a new directory for the challenge
 mkdir week-4-challenge
 cd week-4-challenge
@@ -31,12 +46,19 @@ git add info.txt
 
 # Commit the changes
 git commit -m "Initial commit: Add info.txt with introductory content"
+<<<<<<< HEAD
 ```
 
 ## Task 3: Configure Remote URL with PAT and Push/Pull
 
 ### Commands Used:
 ```sh
+=======
+
+
+Task 3: Configure Remote URL with PAT and Push/Pull
+Commands Used:
+>>>>>>> b2f6ca2 (Git Github Basics Solution)
 # Configure remote URL with PAT
 git remote set-url origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
 
@@ -45,6 +67,7 @@ git push -u origin master
 
 # Pull latest changes from remote repository (optional)
 git pull origin master
+<<<<<<< HEAD
 ```
 
 ## Task 4: Explore Your Commit History
@@ -59,6 +82,18 @@ git log
 
 ### Commands Used:
 ```sh
+=======
+
+
+Task 4: Explore Your Commit History
+Commands Used:
+# View commit history
+git log
+
+
+Task 5: Advanced Branching and Switching
+Commands Used:
+>>>>>>> b2f6ca2 (Git Github Basics Solution)
 # Create a new branch
 git branch feature-update
 
@@ -78,7 +113,15 @@ git commit -m "Feature update: Enhance info.txt with additional details"
 git push origin feature-update
 ```
 
+<<<<<<< HEAD
 After pushing, create a **Pull Request (PR)** on GitHub to merge `feature-update` into `main`.
+=======
+
+Task 6: Explain Branching Strategies
+
+Why Are Branching Strategies Important?
+Branching strategies are essential in collaborative software development as they help manage code changes efficiently and minimize conflicts. Below are key reasons why they matter:
+>>>>>>> b2f6ca2 (Git Github Basics Solution)
 
 ## Task 6: Explain Branching Strategies
 
