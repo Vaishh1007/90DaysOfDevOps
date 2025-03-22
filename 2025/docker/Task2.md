@@ -16,10 +16,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy all files from your computer to container
-COPY . /app
+COPY . .
 
 # Install dependencies from requirements.txt
 RUN pip install -r requirements.txt
+
+# Running on port
+EXPOSE 80
 
 # Command to start the application
 CMD ["python", "app.py"]
@@ -28,8 +31,9 @@ CMD ["python", "app.py"]
 ### **Explanation of the Dockerfile:**
 - `FROM python:3.9-slim` → Uses a small Python version to save space.
 - `WORKDIR /app` → Sets `/app` as the working folder inside the container.
-- `COPY . /app` → Copies your files into the container.
+- `COPY . .` → Copies your all files into the container.
 - `RUN pip install -r requirements.txt` → Installs necessary Python packages.
+- `EXPOSE 80` → Running on port 80
 - `CMD ["python", "app.py"]` → Runs `app.py` when the container starts.
 
 ## Step 3: Build Your Docker Image
