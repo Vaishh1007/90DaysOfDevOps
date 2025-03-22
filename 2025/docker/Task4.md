@@ -8,7 +8,7 @@ A multi-stage build helps create a smaller, more efficient Docker image. Here’
 FROM python:3.9-slim AS builder
 WORKDIR /app
 COPY . /app
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Second stage: Create a lightweight image
 FROM python:3.9-alpine
