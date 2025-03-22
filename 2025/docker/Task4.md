@@ -26,7 +26,7 @@ Check the image size before and after using:
 ```sh
 docker images
 ```
-
+ 
 ## Step 3: Benefits of Multi-Stage Builds
 - **Smaller image size** – The final image doesn’t include unnecessary build tools.
 - **Faster deployment** – Smaller images load and run quicker.
